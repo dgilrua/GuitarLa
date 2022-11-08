@@ -1,0 +1,52 @@
+.contenido {
+    padding: 0 1.5rem 1rem 1.5rem;
+}
+
+.entrada {
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+.contenido h3 {
+    line-height: 1.2;
+    font-weight: 400;
+    font-size: 2.8rem;
+    margin: 2rem 0 0 0;
+}
+
+.fecha {
+    color: var(--primary);
+    font-size: 1.6rem;
+}
+
+.resumen {
+    line-height: 1.3;
+    font-weight: 400;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+
+.boton {
+    text-decoration: none;
+    color: black;
+    border: var(--primary) solid;
+    background-color: white;
+    text-transform: uppercase;
+    padding: 1rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    display: block;
+    transition: all .2s ease;
+    text-align: center;
+}
+
+.boton:hover {
+    background-color: var(--primary);
+    color: white;
+}
+
+.texto {
+    white-space: pre-wrap;
+}

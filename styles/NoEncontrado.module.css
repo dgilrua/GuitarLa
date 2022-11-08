@@ -1,0 +1,17 @@
+.no_encontrado {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.no_encontrado h1 {
+    font-size: 5rem;
+}
+
+.no_encontrado a {
+    text-decoration: none;
+    color: var(--primary);
+    font-size: 3.5rem;
+}
